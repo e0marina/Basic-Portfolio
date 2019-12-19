@@ -111,37 +111,82 @@ footer {
 }
 
 .proj {
-    width: 110px;
-    position: absolute;
+    width: 140px;
+    position: relative;
+    z-index: 1;
+    
 }
 
 .hangman {
-    top: 24%;
+    padding: 20px 0px;
+    
+    
+}
+
+.figHang {
+    bottom: 64%
+    
+
+
 }
 
 .rpg {
-    top: 24%;
-    left: 37%;
+    bottom: 127px;
+    left: 24%;
+    
 }
 
+.figRpg {
+    bottom: 64%;
+    left: 583px;
+    
+}
 .trivia {
-    top: 38%;
+    bottom: 96px;
 
+
+}
+
+.figTriv {
+    bottom: 395px;
 
 }
 
 .rutgers {
-    left: 37%;
-    top: 38%;
+    left: 24%;
+    bottom: 204px;
+}
+
+.figRut {
+    bottom: 394px;
+    left: 583px;
+
+
 }
 
 .rockps {
-    top: 52%;
+    bottom: 174px;
 
 }
 
+.figRock {
+    bottom: 259px;
+}
+
 figcaption {
-    display: none;
+    
+    background-color:#4aaaa5;
+    color: #ffffff;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    width: 118px;
+    font-size: 13px;
+    text-align: center;
+    padding: 11px;
+    position: absolute;
+    z-index: 2;
+
+    
+
     
 
 }
