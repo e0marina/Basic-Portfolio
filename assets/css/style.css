@@ -36,7 +36,7 @@ header {
 
 a {
     color: #777777;
-    font-size: 14px;
+    font-size: 16px;
     padding: 8px;
     text-decoration: none;
     background-color: #ffffff;
@@ -65,7 +65,8 @@ h2 {
 .mainContent {
     
     background-color: #ffffff;
-    border-color: #dddddd;
+    border: 1px solid #dddddd;
+    /*I think the links border AND color are #ddddd*/
     width: 930px;
     height: 500px;
     margin: 0 auto;
@@ -74,23 +75,32 @@ h2 {
     
 }
 
+.aboutMePic {
+    width: 200px;
+    padding: 25px 20px 20px 0px;
+    float: left;
+    
+}
 
 p {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     color: #777777;
-    
-}
-
-
-
-
-.aboutMePic {
-    width: 200px;
-    
+    padding: 25px 25px 25px 0px;
+    line-height: 2em;
 }
 
 footer {
+    clear: both;
     background-color: #666666;
-
-
+    margin: 25px 0px;
+    text-align: center;
+    padding: 6px 0px 0px 0px;
+    position: fixed;
+    height: 50px;
+    border-top: 5px solid #4aaaa5;
+    width: 1131px;
+    top: 92%;
+    color: #ffffff;
+    font-size: 10px;
+    
 }
