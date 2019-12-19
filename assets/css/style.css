@@ -9,6 +9,7 @@ header {
         background-color: #ffffff; 
         border-bottom: 2px solid #ccc;
         height: 68.81px;
+        width: 100%;
         
 }
 
@@ -19,17 +20,16 @@ header {
         width: 221px;
         text-align: center;
         padding: 22px;
-        margin: 0 150px;
+        margin: 0 17%;
         font-size: 25px;
-        position: relative;
-        right: 11%;
+        
 }
 
 .links-set {
             position: relative;
             bottom: 55%;
             right: 10%;
-            left: 79%;
+            left: 69%;
             
 }
 
@@ -91,6 +91,7 @@ p {
 
 footer {
     clear: both;
+    overflow: auto;
     background-color: #666666;
     margin: 25px 0px;
     text-align: center;
@@ -98,9 +99,52 @@ footer {
     position: fixed;
     height: 50px;
     border-top: 5px solid #4aaaa5;
-    width: 1131px;
+    width: 100%;
     top: 92%;
     color: #ffffff;
     font-size: 10px;
     
 }
+
+.portContent {
+    width: 690px;
+}
+
+.proj {
+    width: 110px;
+    position: absolute;
+}
+
+.hangman {
+    top: 24%;
+}
+
+.rpg {
+    top: 24%;
+    left: 37%;
+}
+
+.trivia {
+    top: 38%;
+
+
+}
+
+.rutgers {
+    left: 37%;
+    top: 38%;
+}
+
+.rockps {
+    top: 52%;
+
+}
+
+figcaption {
+    display: none;
+    
+
+}
+
+
+
