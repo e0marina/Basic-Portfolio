@@ -116,11 +116,15 @@ footer {
 .proj {
     width: 140px;
     z-index: 1;
-    position: relative;
+    /*position: relative;*/
+    position: absolute;
     
 }
 
+#hang-cont {
+    position: relative;
 
+}
 
 .hangman {
     padding: 20px 0px;
@@ -129,53 +133,73 @@ footer {
 }
 
 .figHang {
-    bottom: 462px;
+    top: 83px;
     
 
 
 }
 
+#rpg-cont {
+    position: relative;
+}
+
 .rpg {
-    bottom: 128px;
-    left: 20%;
+    top: 20px;
+    left: 185px;
     
 }
 
 .figRpg {
-    bottom: 67%;
-    left: 619px;
+    top: 82px;
+    left: 185px;
     
 }
+
+#trivia-cont {
+    position: relative;
+
+}
+
 .trivia {
-    bottom: 96px;
+    top: 158px;
 
 
 }
 
 .figTriv {
-    bottom: 471px;
+    top: 221px;
 
 }
+#rutgers-cont {
+    position: relative;
 
+
+}
 .rutgers {
-    left: 20%;
-    bottom: 204px;
+    top: 157px;
+    left: 185px;
 }
 
 .figRut {
-    bottom: 472px;
-    left: 619px;
+    top: 221px;
+    left: 185px;
+
+
+}
+
+#rockps-cont {
+    position: relative;
 
 
 }
 
 .rockps {
-    bottom: 174px;
+    top: 295px;
 
 }
 
 .figRock {
-    bottom: 333px;
+    top: 358px;
 }
 
 figcaption {
