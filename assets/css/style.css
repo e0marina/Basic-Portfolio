@@ -183,13 +183,34 @@ figcaption {
     text-align: center;
     padding: 11px;
     position: absolute;
-    z-index: 2;
-
-    
-
-    
+    z-index: 2;  
 
 }
 
+.formHeader {
+    padding: 5px 0px 2px 0px;
+    width: 100px;
+}
 
+.box {
+    width: 800px;
+
+}
+
+.message {
+    height: 200px;
+
+}
+
+button {
+    position: relative;
+    top: 135px;
+    right: 87%;
+    background-color: #4aaaa5;
+    border: 0px;
+    text-decoration: none;
+    color: #ffffff ;
+    padding: 5px 22px;
+
+}
 
