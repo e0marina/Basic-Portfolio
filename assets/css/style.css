@@ -17,22 +17,25 @@ header {
         background-color: #4aaaa5;
         border-color: #ccc;
         color: #ffffff;
-        width: 221px;
+        width: 220px;
         text-align: center;
         padding: 22px;
-        margin: 0 17%;
         font-size: 25px;
         
 }
 
 .links-set {
             position: relative;
-            bottom: 55%;
-            right: 10%;
-            left: 69%;
+            bottom: 42px;
+            left: 78%;
             
 }
 
+.nameLinks {
+    margin: 0 auto;
+    width: 930px;
+    
+}
 
 a {
     color: #777777;
@@ -66,14 +69,16 @@ h2 {
     
     background-color: #ffffff;
     border: 1px solid #dddddd;
-    /*I think the links border AND color are #ddddd*/
-    width: 930px;
-    height: 500px;
+    width: 868px;
+    height: 540px;
     margin: 0 auto;
     margin-top: 35px;
     padding: 30px;
     
+    
 }
+
+
 
 .aboutMePic {
     width: 200px;
@@ -106,16 +111,16 @@ footer {
     
 }
 
-.portContent {
-    width: 690px;
-}
+
 
 .proj {
     width: 140px;
-    position: relative;
     z-index: 1;
+    position: relative;
     
 }
+
+
 
 .hangman {
     padding: 20px 0px;
@@ -124,21 +129,21 @@ footer {
 }
 
 .figHang {
-    bottom: 64%
+    bottom: 462px;
     
 
 
 }
 
 .rpg {
-    bottom: 127px;
-    left: 24%;
+    bottom: 128px;
+    left: 20%;
     
 }
 
 .figRpg {
-    bottom: 64%;
-    left: 583px;
+    bottom: 67%;
+    left: 619px;
     
 }
 .trivia {
@@ -148,18 +153,18 @@ footer {
 }
 
 .figTriv {
-    bottom: 395px;
+    bottom: 471px;
 
 }
 
 .rutgers {
-    left: 24%;
+    left: 20%;
     bottom: 204px;
 }
 
 .figRut {
-    bottom: 394px;
-    left: 583px;
+    bottom: 472px;
+    left: 619px;
 
 
 }
@@ -170,7 +175,7 @@ footer {
 }
 
 .figRock {
-    bottom: 259px;
+    bottom: 333px;
 }
 
 figcaption {
@@ -182,8 +187,8 @@ figcaption {
     font-size: 13px;
     text-align: center;
     padding: 11px;
-    position: absolute;
     z-index: 2;  
+    position: absolute;
 
 }
 
