@@ -232,7 +232,7 @@ figcaption {
 }
 
 button {
-    position: relative;
+   
     top: 135px;
     right: 87%;
     background-color: #4aaaa5;
@@ -240,6 +240,7 @@ button {
     text-decoration: none;
     color: #ffffff ;
     padding: 5px 22px;
+    margin-top: 5px;
 
 }
 
